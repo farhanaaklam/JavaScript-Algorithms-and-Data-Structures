@@ -131,8 +131,10 @@ var watchList = [
     return averageRating;
   }
   console.log(getRating(watchList));
+ }
+  
 
- /*  function getRating(watchList){
+  /*  function getRating(watchList){
     // Add your code below this line
     var count = 0;
     var averageRating = watchList.reduce((sum,movie) =>  {
@@ -144,5 +146,3 @@ var watchList = [
     }, 0) / count;
     // Add your code above this line
     return averageRating; */
-  }
-  
