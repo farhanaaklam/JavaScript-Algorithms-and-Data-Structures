@@ -131,7 +131,6 @@ var watchList = [
     return averageRating;
   }
   console.log(getRating(watchList));
- }
   
 
   /*  function getRating(watchList){
