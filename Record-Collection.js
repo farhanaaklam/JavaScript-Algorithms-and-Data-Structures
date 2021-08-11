@@ -39,11 +39,11 @@ var collection = {
 // Only change code below this line
 
 function updateRecords(id, prop, value) {
-    if (prop == "tracks" && !collection[id].hasOwnProperty("tracks")) {
+    if (prop === "tracks" && collection[id].hasOwnProperty("tracks") === false) {
         collection[id][prop] = [];
         collection[id][prop].push(value);
     }
-    else if (prop == "tracks" && value != "") {
+    else if (prop === "tracks" && value !== "") {
         collection[id][prop].push(value);
     }
     else if (value === "") {
